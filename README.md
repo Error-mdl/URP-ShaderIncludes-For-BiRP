@@ -1,3 +1,3 @@
-# URP Shader includes for the Built-in Pipeline
+# URP Shader Includes for the Built-in Pipeline
 
 This is a collection of shader includes from Unity's Universal and Core render pipelines to allow easier porting of shaders from URP to BiRP, and to allow built-in shaders to be written like URP shaders to make them easier to port as well. The includes have been modified to not cause errors with the BiRP (though not everything has been tested) and to fix some horrible mistakes on unity's part (like thoughlessly using the real type macro, which ends up casting floats that need full precision to half on mobile). Designed for VRChat, only supports DX11 and gles3 right now.

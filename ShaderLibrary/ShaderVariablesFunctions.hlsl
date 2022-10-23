@@ -491,6 +491,7 @@ uint URP_FirstBitLow(uint m)
 #define FIRST_BIT_LOW firstbitlow
 #endif
 
+#if !defined(UNITY_CG_INCLUDED)
 #if defined(UNITY_SINGLE_PASS_STEREO)
     float2 TransformStereoScreenSpaceTex(float2 uv, float w)
     {
@@ -506,7 +507,7 @@ uint URP_FirstBitLow(uint m)
 #else
     #define UnityStereoTransformScreenSpaceTex(uv) uv
 #endif // defined(UNITY_SINGLE_PASS_STEREO)
-
+#endif
 /* URP Rendering Layer stuff 
 uint GetMeshRenderingLayer()
 {

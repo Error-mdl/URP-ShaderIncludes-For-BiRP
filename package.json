@@ -1,7 +1,7 @@
 {
-    "name": "com.error.birptourp",
-    "version": "1.0.0",
-    "displayName": "BiRP to URP Macros",
-    "description": "URP Macros translated to the built-in render pipeline, to allow writing shaders more like the URP in the built-in pipeline",
-    "hideInEditor": false
+  "name": "com.error.birptourp",
+  "version": "1.0.0.1",
+  "displayName": "BiRP to URP Macros",
+  "description": "URP Macros translated to the built-in render pipeline, to allow writing shaders more like the URP in the built-in pipeline",
+  "hideInEditor": false
 }
