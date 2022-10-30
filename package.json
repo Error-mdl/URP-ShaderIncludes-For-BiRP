@@ -1,7 +1,11 @@
 {
   "name": "com.error.birptourp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "BiRP to URP Macros",
   "description": "URP Macros translated to the built-in render pipeline, to allow writing shaders more like the URP in the built-in pipeline",
-  "hideInEditor": false
+  "hideInEditor": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Error-mdl/URP-ShaderIncludes-For-BiRP.git"
+  }
 }
